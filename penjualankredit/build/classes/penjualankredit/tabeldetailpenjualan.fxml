@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjualankredit.TabeldetailpenjualanController">
+   <children>
+      <Button fx:id="btnbatal" layoutX="476.0" layoutY="328.0" mnemonicParsing="false" text="batal" />
+      <Button fx:id="btnkeluar" layoutX="274.0" layoutY="328.0" mnemonicParsing="false" text="keluar" />
+      <Button fx:id="btnsimpan" layoutX="52.0" layoutY="328.0" mnemonicParsing="false" text="simpan" />
+      <Label layoutX="50.0" layoutY="60.0" text="sales detail id" />
+      <Label layoutX="66.0" layoutY="131.0" text="sales id" />
+      <Label layoutX="66.0" layoutY="192.0" text="product id" />
+      <Label layoutX="66.0" layoutY="269.0" text="jumlah" />
+      <TextField fx:id="txtsalesdetailid" layoutX="226.0" layoutY="56.0" />
+      <TextField fx:id="txtsalesid" layoutX="226.0" layoutY="127.0" />
+      <TextField fx:id="txxtproductid" layoutX="224.0" layoutY="188.0" />
+      <TextField fx:id="txtjumlah" layoutX="224.0" layoutY="265.0" />
+   </children>
+</AnchorPane>

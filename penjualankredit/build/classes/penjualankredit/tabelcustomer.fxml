@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjualankredit.TabelcustomerController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btnkeluar" layoutX="526.0" layoutY="337.0" mnemonicParsing="false" text="keluar" />
+            <Button fx:id="btnsimpan" layoutX="366.0" layoutY="337.0" mnemonicParsing="false" text="simpan" />
+            <Button fx:id="btnbatal" layoutX="450.0" layoutY="337.0" mnemonicParsing="false" text="batal" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="txtnama" layoutX="177.0" layoutY="111.0" />
+      <Label layoutX="49.0" layoutY="115.0" text="nama" />
+      <Label layoutX="46.0" layoutY="192.0" text="alamat" />
+      <Label layoutX="44.0" layoutY="263.0" text="telepon" />
+      <Label layoutX="21.0" layoutY="340.0" text="tanggal bergabung" />
+      <TextField fx:id="txtalamat" layoutX="177.0" layoutY="188.0" />
+      <TextField fx:id="txttelepon" layoutX="177.0" layoutY="259.0" />
+      <TextField fx:id="txttanggalbergabung" layoutX="177.0" layoutY="336.0" />
+      <TextField fx:id="txtcustomerid" layoutX="177.0" layoutY="38.0" />
+      <Label layoutX="33.0" layoutY="42.0" text="customer id" />
+   </children>
+</Pane>

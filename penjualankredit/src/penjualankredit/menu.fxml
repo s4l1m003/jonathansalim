@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjualankredit.MenuController">
+   <children>
+      <TableView prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="customerColumn" prefWidth="104.0" text="tabel customer" />
+          <TableColumn fx:id="cicilanColumn" prefWidth="99.0" text="tabel cicilan" />
+            <TableColumn fx:id="productColumn" prefWidth="115.0" text="tabel product" />
+            <TableColumn fx:id="penjualanColumn" prefWidth="129.0" text="tabel penjualan" />
+            <TableColumn fx:id="detailpenjualanColumn" prefWidth="152.0" text="tabel detail penjualan" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
